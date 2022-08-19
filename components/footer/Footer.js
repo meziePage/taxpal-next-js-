@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 
 import TwitterIcon from "@material-ui/icons/Twitter";
-import GithubIcon from "@material-ui/icons/Github";
 
 function Footer() {
   return (
@@ -40,7 +39,7 @@ function Footer() {
           <div className="flex justify-center flex-col sm:flex-row sm:justify-between w-full space-y-8 items-center  mt-20">
               <div className="space-x-4 sm:order-2">
               <TwitterIcon className="text-gray-500 cursor-pointer" />
-                  <GithubIcon className="text-gray-500 cursor-pointer" />
+                  {/* <GithubIcon className="text-gray-500 cursor-pointer" /> */}
               </div>
               <div className="text-gray-600 pb-8">Copyright &copy; 2021 TaxPal. All rights reserved.</div>
           </div>
