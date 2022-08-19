@@ -4,6 +4,13 @@ import Link from 'next/link';
 import Button from '../ui/Button';
 import MenuIcon from '@material-ui/icons/Menu';
 import { IconButton } from '@material-ui/core';
+// import { useRef } from 'react';
+
+// const menuRef = useRef();
+
+const menuHandler = () => {
+// alert("hello")
+}
 
 function Header() {
   return (
@@ -50,7 +57,7 @@ function Header() {
           Get started <span className="hidden lg:flex"> &nbsp;today</span>
         </Button>
         <div className="lg:hidden ml-2">
-          <IconButton>
+          <IconButton onClick={menuHandler}>
             <MenuIcon />
           </IconButton>
         </div>
